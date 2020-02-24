@@ -92,7 +92,20 @@ transition: .3s;
         margin-bottom: 25px;
     }
 
+  #bag{
+    margin-bottom: 25px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 10px;
+}
 
+#beauty,#shoes{
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
 
     .catagory .cat-bag{
         box-shadow:0px 0px 30px -4px rgb(194, 192, 192);
