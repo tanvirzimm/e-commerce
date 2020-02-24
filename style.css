@@ -1,0 +1,112 @@
+body{
+    font-family: 'Poppins', ;
+}
+
+
+.smartphone,.laptop,.catagory{
+    margin-bottom: 100px;
+}
+.navbar-custom{
+    background-color: white !important;
+}
+
+.navbar-custom li a:hover{
+color:rgb(255, 136, 0) !important;
+transition: .3s;
+}
+
+
+
+.buy-now{
+    background-color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:none;
+    color:white;
+    margin-bottom: 20px;
+}
+
+
+.carousel-indicators .active{
+    width: 32px;
+    height: 10px;
+    
+    background-color: #FF9C35;
+    border-radius: 35%;
+}
+
+.carousel-indicators li{
+    background-color: gray;
+    width:12px;
+    height:10px;
+    border-radius: 40%;
+   
+}
+
+.top-header{
+    padding: 50px 0px;
+}
+
+.top-header p{
+    color: #ff8800;
+    cursor: pointer;
+}
+
+
+
+.card{
+    text-align: center;
+    border:none;
+    box-shadow:0px 0px 30px -4px rgb(194, 192, 192);
+    border-radius: 10px;
+}
+
+
+.card-footer{
+    background-color: white;
+    border-top:none;
+}
+
+.catagory .cat-header{
+    text-align: center;
+
+}
+
+.catagory .cat-header::after{
+    content:"";
+    width:200px;
+    height:8px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    background-image: linear-gradient(to right,#FF9C35,#FFCF1A);
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.catagory p{
+    padding-top: 28px;
+    }
+
+    .catagory .card{
+        margin-bottom: 25px;
+    }
+
+
+
+    .catagory .cat-bag{
+        box-shadow:0px 0px 30px -4px rgb(194, 192, 192);
+        padding: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .catagory .cat-bag{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 5px;
+    }
+    
+    .catagory .pale-order{
+        width: 100%;
+    } 
